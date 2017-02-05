@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:layout_gravity="center"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/mac" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="“You&apos;ve gotta dance opps dance baby like a magnet sing and laugh  dance dance baby dance it  like there&apos;s nobo so what was it it was a hell of fun hehehahady watching,    Love like you&apos;ll never be hurt, Sing like there&apos;s nobody listening, And live like it&apos;s heaven on earth.”  ― William W. Purkey“Friendship ... is born at the moment when one man says to another &quot;What! You too? I thought that no one but myself . . .”  ― C.S. Lewis, The Four Loves"
+        android:id="@+id/textView"
+        android:layout_weight="0.40" />
+
+    <WebView
+    android:id="@+id/webView"
+    android:layout_width="match_parent"
+    android:layout_height="155dp" />
+
+</LinearLayout>
